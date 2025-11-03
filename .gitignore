@@ -1,0 +1,14 @@
+# Editor/temp files
+*~
+*.swp
+*.swo
+
+# OS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Prolog build artifacts (if any)
+*.po
+*.qlf
