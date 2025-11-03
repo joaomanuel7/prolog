@@ -8,7 +8,13 @@ Um programa que encontra a configuração correta de 5 aviões em formação, da
 
 Executar
 -------
-Com SWI-Prolog, carregue o arquivo e chame o predicado principal:
+**Pré-requisito:** SWI-Prolog. Se não tiver instalado, rode:
+
+```bash
+sudo apt install swi-prolog-core
+```
+
+Depois, carregue o arquivo e chame o predicado principal:
 
 ```bash
 swipl -s esquadrilha.pl -g "resolve_avioes(S), portray_clause(S), halt."
